@@ -12,9 +12,6 @@ set.relativenumber = true
 set.clipboard = "unnamed"
 
 set.ruler = true
-
--- Set the search highlighet to be on
--- set.hlsearch = true
 --
 -- Format on save
 vim.cmd([[
@@ -67,3 +64,7 @@ require("cmp_config")
 --- remapping of key bindings configuration
 
 require("key_mappings")
+
+--- general options
+
+require("options")
