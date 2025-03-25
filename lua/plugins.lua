@@ -17,7 +17,7 @@ Plug("sainnhe/sonokai")
 
 --- Telescope plugins (fuzzy finder)
 Plug("nvim-lua/plenary.nvim")
-Plug("nvim-telescope/telescope.nvim", { ["tag"] = "0.1.0" })
+Plug("nvim-telescope/telescope.nvim", { ['branch'] = '0.1.x' })
 
 --- coc.vim for LSP support
 -- Plug('neoclide/coc.nvim', { ['branch'] = 'release' })
