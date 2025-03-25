@@ -10,8 +10,8 @@ Clone the repo into home config directory:
 
 [vim-plug](https://github.com/junegunn/vim-plug) will be used to manage plugins, so install that:
 
-`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 Open a neovim session and install the plugins:
 
